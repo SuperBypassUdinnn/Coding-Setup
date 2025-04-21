@@ -18,7 +18,7 @@ void printArray(int arr[], int length)
     printf("[");
     for (int i = 0; i < length - 1; i++)
         printf("%d, ", arr[i]);
-    printf("%d]", arr[length - 1]);
+    printf("%d]\n", arr[length - 1]);
 }
 
 void printArrayStr(char *arr[], int length)
